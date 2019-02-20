@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<questions>
+	<question order="1">
+		<id>1</id>
+		<label>What is the definition of JVM ?</label>
+		<difficulty>2</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>Java Virtual Machine</topic>
+		</topics>
+		<answers>
+			<answer>Java Virtual Machine</answer>
+		</answers>
+	</question>
+	<question order="2">
+		<id>2</id>
+		<label>Can you read a .class file ?</label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>Compilation</topic>
+		</topics>
+		<choices>
+			<choice valid="false">Yes</choice>
+			<choice valid="true">No</choice>
+		</choices>
+	</question>
+	<question order="3">
+		<id>3</id>
+		<label>What are the main differences between Java and C ?</label>
+		<difficulty>1</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>C</topic>
+		</topics>
+		<choices>
+			<choice valid="true">OOP</choice>
+			<choice valid="false">Procedures</choice>
+			<choice valid="false">Garbage collector</choice>
+		</choices>
+	</question>
+	<question order="4">
+		<id>4</id>
+		<label>If none of the private/protected/public is specified for a member, that member ... </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>Compilation</topic>
+		</topics>
+		<choices>
+			<choice valid="false"> A. Is accessible publicly</choice>
+			<choice valid="true"> B. Is only accessible by other classes of the same package</choice>
+			<choice valid="false"> C. Is only accessible from within the class</choice>
+			<choice valid="false"> D. Is accessible by the class and its subclasses</choice>
+		</choices>
+	</question>
+	<question order="5">
+		<id>5</id>
+		<label>Which of the following file extension types store the source code ? </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>Java Virtual Machine</topic>
+		</topics>
+		<choices>
+			<choice valid="true"> A. .java</choice>
+			<choice valid="false"> B. .class</choice>
+			<choice valid="false"> C. .source</choice>
+			<choice valid="false"> D. .code</choice>
+		</choices>
+	</question>
+	<question order="6">
+		<id>6</id>
+		<label>Which of following file extension types store byte code ? </label>
+		<difficulty>3</difficulty>
+		<topics>
+			<topic>Java</topic>
+			<topic>Java Virtual Machine</topic>
+		</topics>
+		<choices>
+			<choice valid="false"> A. .code</choice>
+			<choice valid="false"> B. .java</choice>
+			<choice valid="false"> C. .bytecode</choice>
+			<choice valid="true"> D. .class</choice>
+		</choices>
+	</question>
+</questions>
